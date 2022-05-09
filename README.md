@@ -10,3 +10,20 @@ https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2
 
 
 ### 1.a Assembling the TFT Screen
+
+
+### 1.b Enable WiFi
+
+
+
+
+### 1.c Setting up the Rasbian Lite
+```
+sudo raspi-config
+```
+
+-> enable SPI
+
+```
+sudo rpi-update
+```
