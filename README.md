@@ -25,3 +25,7 @@ sudo raspi-config
 sudo rpi-update
 reboot
 ```
+
+Then you have to download drivers for fbtft screen.
+https://learn.watterott.com/hats/rpi-display/fbtft-install/
+
