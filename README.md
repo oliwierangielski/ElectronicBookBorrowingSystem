@@ -24,6 +24,7 @@ sudo raspi-config
 ```
 sudo rpi-update
 reboot
+sudo apt install xorg xserver-xorg-video-fbturbo
 ```
 
 Then you have to download drivers for fbtft screen.
