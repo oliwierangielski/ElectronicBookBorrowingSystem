@@ -24,7 +24,7 @@ sudo raspi-config
 ```
 sudo rpi-update
 reboot
-sudo apt install xorg xserver-xorg-video-fbturbo
+sudo apt install xorg xserver-xorg-video-fbturbo xfonts-cyrillic
 ```
 
 Then you have to download drivers for fbtft screen.
