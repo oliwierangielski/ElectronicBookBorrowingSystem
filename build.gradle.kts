@@ -21,7 +21,7 @@ dependencies {
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "12"
+    kotlinOptions.jvmTarget = "11"
 }
 
 compose.desktop {
@@ -29,7 +29,7 @@ compose.desktop {
         mainClass = "MainKt"
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
-            packageName = "ElectronicBookBorrowingSystem"
+            packageName = "ElectronicBooksBorrowingSystem"
             packageVersion = "1.0.0"
         }
     }

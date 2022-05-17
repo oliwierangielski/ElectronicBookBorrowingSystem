@@ -6,5 +6,5 @@ pluginManagement {
     }
     
 }
-rootProject.name = "ElectronicBookBorrowingSystem"
+rootProject.name = "ElectronicBooksBorrowingSystem"
 
