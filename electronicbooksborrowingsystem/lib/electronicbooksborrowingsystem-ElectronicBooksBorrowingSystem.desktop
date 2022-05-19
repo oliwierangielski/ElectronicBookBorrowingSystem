@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ElectronicBooksBorrowingSystem
+Comment=ElectronicBooksBorrowingSystem
+Exec=/opt/electronicbooksborrowingsystem/bin/ElectronicBooksBorrowingSystem
+Icon=/opt/electronicbooksborrowingsystem/lib/ElectronicBooksBorrowingSystem.png
+Terminal=false
+Type=Application
+Categories=Unknown
+MimeType=
