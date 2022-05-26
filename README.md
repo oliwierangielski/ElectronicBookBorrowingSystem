@@ -9,7 +9,7 @@ First of all you need to download the Raspbian Lite armhf (32bit)
 https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2022-04-07/2022-04-04-raspios-bullseye-armhf-lite.img.xz
 
 
-### 1.a Assembling the TFT Screen 
+## 2 Assembling the TFT Screen 
 
 Scheme for Raspberry pi 4b
 ```
@@ -27,7 +27,7 @@ MISO -> MISO (Pin 21)
 Touch Controllers will be added in the future
 
 
-### 1.c Setting up the Rasbian Lite
+## 3 Setting up the Rasbian Lite
 ```
 sudo raspi-config
 ```
@@ -54,3 +54,13 @@ Install tslib (touchscreen library)? y/n Y
 Reboot the system now? y/n Y
 Rebooting now...
 ```
+
+## 4. Installing Application Binaries //TODO
+Now you have to clone this repository and copy the arm64 binary file to the  ~/ directory
+
+## 5. Installing and setting qemu //TODO
+Note that rasbian os archtecture is 32bit when the application architecture is 64 bit. You can't just run the application. Instead you need to download the qemu virtual machine and run it inside it
+
+## 6. Creating Startup Files //TODO
+
+
