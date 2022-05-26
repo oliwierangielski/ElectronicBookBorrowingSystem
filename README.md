@@ -40,5 +40,17 @@ sudo apt install xorg xserver-xorg-video-fbturbo xfonts-cyrillic
 ```
 
 Then you have to download drivers for fbtft screen.
-https://learn.watterott.com/hats/rpi-display/fbtft-install/
+Guide (https://learn.watterott.com/hats/rpi-display/fbtft-install/)
 
+```
+wget -N https://github.com/watterott/RPi-Display/raw/master/rpi-display.sh
+$ sudo /bin/bash rpi-display.sh 270
+
+Enable TFT display driver and activate X windows on TFT display? y/n Y
+Activate the console on the TFT display? y/n Y
+Install fbcp (Framebuffer Copy)? y/n N
+Install xinput-calibrator? y/n Y
+Install tslib (touchscreen library)? y/n N
+Reboot the system now? y/n Y
+Rebooting now...
+```
