@@ -50,7 +50,7 @@ Enable TFT display driver and activate X windows on TFT display? y/n Y
 Activate the console on the TFT display? y/n Y
 Install fbcp (Framebuffer Copy)? y/n N
 Install xinput-calibrator? y/n Y
-Install tslib (touchscreen library)? y/n N
+Install tslib (touchscreen library)? y/n Y
 Reboot the system now? y/n Y
 Rebooting now...
 ```
