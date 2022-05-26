@@ -23,9 +23,8 @@ SCK -> CLK (Pin 23)
 LED -> IO 18 (Pin 12)
 MISO -> MISO (Pin 21)
 
-Touch Controllers will be added in the future
-
 ```
+Touch Controllers will be added in the future
 
 
 ### 1.c Setting up the Rasbian Lite
